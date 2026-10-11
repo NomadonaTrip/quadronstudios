@@ -32,7 +32,7 @@ python3 -m http.server 8080 --directory site
 2. **Forms.** Every form (contact, partnership, outsource, academy registration and the footer newsletter) posts to one endpoint. Set `<meta name="qs-form-endpoint" content="…">` in `tools/build.py`, for example to a Formspree or Netlify Forms URL, then rebuild. Until then, submitting shows a "not connected yet" message.
 3. **Chat.** Wix Chat doesn't run off Wix. "Let's Chat!" and the mobile "•••" button link to `/contact`.
 4. **Redirects.** `_redirects` is in Netlify / Cloudflare Pages format. On another host, the HTML redirect stubs still work.
-5. **Video weight.** `assets/video/hero.mp4` (39 MB) and `hbcu-superheroes.mp4` (72 MB) are the original masters. Re-encode them (e.g. H.264 CRF 28) for faster loads.
+5. **Videos.** These are already compressed with H.264 and faststart, at an SSIM of at least 0.99 against the source, and the silent background loops have no audio track. The originals are in `../video-originals/`, outside the deployed folder.
 6. **Live-site quirks kept for parity.** Fix them in the generator if you want:
    - the search box is partly off-screen on desktop;
    - text runs off the right edge on XR (Trader Moni) and on the home page's partnership paragraph;
