@@ -168,33 +168,6 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .logo { position: absolute; left: 25px; top: 27px; width: 400px; height: 48px; }
 .logo img { width: 400px; height: 48px; }
 
-.search {
-  position: absolute;
-  left: calc(50% - 875.5px);
-  top: 85px;
-  width: 305px;
-  height: 45px;
-  border: 1px solid rgba(255, 255, 255, 0.6);
-  background: var(--ink);
-  font: 18px var(--text);
-}
-.search svg {
-  position: absolute; left: 12px; top: 13.4px;
-  width: 16.2px; height: 16.2px;
-  color: rgba(255, 255, 255, 0.6);
-}
-.search input[type="search"] {
-  position: absolute; left: 40.2px; top: 0;
-  width: 220.8px; height: 43px;
-  padding: 8px 0;
-  border: 0; background: transparent; color: #fff;
-  font: inherit;
-  -webkit-appearance: none; appearance: none;
-}
-.search input::placeholder { color: #fff; opacity: 1; }
-.search input:focus { outline: none; }
-.search input::-webkit-search-cancel-button { -webkit-appearance: none; }
-
 .nav {
   position: absolute;
   top: 25px;
@@ -379,13 +352,6 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
   .logo img { width: 100%; height: 100%; object-fit: cover; }
   .nav, .hdr-cta, .chat { display: none; }
   .hdr { z-index: 0; }
-  .search {
-    left: calc(20 * var(--u)); top: calc(95 * var(--u));
-    width: calc(280 * var(--u)); height: calc(41 * var(--u));
-    font-size: calc(18 * var(--u));
-  }
-  .search svg { left: calc(12 * var(--u)); top: calc(12.4 * var(--u)); width: calc(16.2 * var(--u)); height: calc(16.2 * var(--u)); }
-  .search input[type="search"] { left: calc(40.2 * var(--u)); width: calc(220 * var(--u)); height: calc(39 * var(--u)); padding: 0; }
 
   .burger {
     display: block;

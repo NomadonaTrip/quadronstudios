@@ -34,6 +34,5 @@ python3 -m http.server 8080 --directory site
 4. **Redirects.** `_redirects` is in Netlify / Cloudflare Pages format. On another host, the HTML redirect stubs still work.
 5. **Videos.** These are already compressed with H.264 and faststart, at an SSIM of at least 0.99 against the source, and the silent background loops have no audio track. The originals are in `../video-originals/`, outside the deployed folder.
 6. **Live-site quirks kept for parity.** Fix them in the generator if you want:
-   - the search box is partly off-screen on desktop;
    - text runs off the right edge on XR (Trader Moni) and on the home page's partnership paragraph;
    - the About team-card social icons link to Wix's own Facebook, Twitter and LinkedIn (template placeholders).
