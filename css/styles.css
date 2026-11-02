@@ -541,7 +541,7 @@ main { position: relative; z-index: 1; }
 .vg-open:hover .vg-hover, .vg-open:focus-visible .vg-hover { opacity: 1; }
 .vg-dur { position: absolute; right: 6px; bottom: 10px; font: 12px/14px "HelveticaNeueW01-55Roma", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 .vg-info { display: block; padding: 24px 20px 0; }
-.vg-title { display: block; font: 700 25px/30px "futura-lt-w01-book", sans-serif; }
+.vg-title { display: block; margin: 0; font: 700 25px/30px "futura-lt-w01-book", sans-serif; }
 .vg-desc { display: block; margin-top: 10px; font: 15px/15px "futura-lt-w01-book", sans-serif; }
 .vg-arrow { position: absolute; top: 54px; width: 55px; height: 378px; padding: 0; border: 0; background: none; color: rgba(255, 255, 255, 0.8); cursor: pointer; opacity: 0; transition: opacity 0.2s; }
 .vg-arrow svg { display: block; margin: 0 auto; filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.5)); }
